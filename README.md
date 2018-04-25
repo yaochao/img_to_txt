@@ -1,17 +1,22 @@
 # Image transfer to txt
 
 ### Usage
-* 安装依赖：
+* install dependence：
 
 ```shell
 $ pip3 install -r requests.txt
 ````
 
-* 命令：
+* command：
 
 ```shell
 $ python3 img_to_txt.py [file/url] [size]
 ```
+
+* args:
+
+[file/url]: 本地图片路径，或者网络图片URL。The local file path, or online pic URL.
+[size]: 输出文本的宽度，size越大，输出文本越清晰。 Width of output txt, The larger the size, the clearer the picture .
 
 ### Example
 ```shell
