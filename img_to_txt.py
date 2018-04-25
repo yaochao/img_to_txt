@@ -38,7 +38,7 @@ def pixel_to_black(fp, weight):
     except:
         print('请输入正确的图片路径或URL😝')
         return
-    # img = remove_transparency(img)
+    img = remove_transparency(img)
     img = img.convert("L")
     im_w, im_h = img.size
     img = np.array(img)
