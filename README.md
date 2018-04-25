@@ -1,9 +1,18 @@
 # Image transfer to txt
---
+
 ### Usage
+* 安装依赖：
+
+```shell
+$ pip3 install -r requests.txt
+````
+
+* 命令：
+
 ```shell
 $ python3 img_to_txt.py [file/url] [size]
 ```
+
 ### Example
 ```shell
 $ python3 img_to_txt.py http://ocas9civ7.bkt.clouddn.com/jzm.jpg
