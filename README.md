@@ -15,8 +15,10 @@ $ python3 img_to_txt.py [file/url] [size]
 
 * args:
 
+```shell
 [file/url]: 本地图片路径，或者网络图片URL。The local file path, or online pic URL.
 [size]: 输出文本的宽度，size越大，输出文本越清晰。 Width of output txt, The larger the size, the clearer the picture .
+```
 
 ### Example
 ```shell
