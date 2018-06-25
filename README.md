@@ -4,7 +4,7 @@
 * install dependence：
 
 ```shell
-$ pip3 install -r requests.txt
+$ pip3 install -r requirements.txt
 ````
 
 * command：
