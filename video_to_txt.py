@@ -65,7 +65,7 @@ def main(args):
             pilimg = Image.fromarray(frame)
             data = img2pixel(pilimg, charwidth=int(args[2]))
             s = pixel2char(data=data)
-            os.system('echo -ne ' + s)
+            print(s)
             currentframe += 1
         else:
             break
