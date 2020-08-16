@@ -36,7 +36,7 @@ def pixel_to_black(fp, weight):
     try:
         img = Image.open(fp)
     except:
-        print('请输入正确的图片路径或URL😝')
+        print('Input correct path or url of the image please.')
         return
     img = remove_transparency(img)
     img = img.convert("L")
@@ -95,7 +95,7 @@ def paint(uri, weight):
 
 
 def get_img(url):
-    print('️正在加载图片☺️\n')
+    print('️Loading the image from the Internet, wait please.')
     response = requests.get(url)
     if response.status_code == 200:
         with open('in.png', 'wb') as f:
