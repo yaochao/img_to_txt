@@ -1,6 +1,6 @@
 
 # Created by https://www.gitignore.io/api/python,macos,pycharm,windows,linux
-*.png
+#*.png
 out.txt
 ### Linux ###
 *~
